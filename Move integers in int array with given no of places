@@ -1,4 +1,4 @@
-//Move integers in int array with given no of places
+//go int array move given position
 //Input
 //1
 //5 2
