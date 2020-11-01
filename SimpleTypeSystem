@@ -1,0 +1,14 @@
+package main
+import"fmt"
+func main(){
+	
+	i:=1 // type int
+	pi:=3.142 // type float64
+	greeting:="Hello, Bootcamp!" // type string
+	mul:=func(x,y int) int {return x*y} // type func(int, int) int
+	
+	fmt.Println("i int value := ",i)
+	fmt.Println("pi float64 value := ",pi)
+	fmt.Println("greeting float64 value := ", greeting)
+	fmt.Println("mul func(int, int) int  value := ", mul(2, 3))
+}
